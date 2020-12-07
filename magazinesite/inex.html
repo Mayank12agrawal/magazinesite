@@ -1,0 +1,172 @@
+<html>
+<head>
+<title>maga</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+<script src="js/jquery-3-4-1.js"></script>
+
+
+<script>
+var arr=[];
+arr[0]="C:/Users/user/Desktop/project cllge/img/ma2.jpg";
+arr[1]="C:/Users/user/Desktop/project cllge/img/ma7.jpg";
+arr[2]="C:/Users/user/Desktop/project cllge/img/ma8.jpg";
+var x=0;
+function xyz()
+{
+	if(x==0)
+	{
+		x=2;
+		document.getElementById("sli").src=arr[x];
+		
+		
+		
+	}
+	else
+	{
+		x=x-1;
+		document.getElementById("sli").src=arr[x];
+		
+		
+	}
+    	
+}
+function abc()
+{
+	if(x==2)
+	{
+		x=0;
+		document.getElementById("sli").src=arr[x];
+		
+		
+	}
+	else
+	{
+		x=x+1;
+		document.getElementById("sli").src=arr[x];
+		
+		
+	}
+    	
+}
+setInterval(xyz,3000);
+</script>
+
+
+
+
+<link href="style.css" type="text/css" rel="stylesheet"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.box{width:50px; height:50px; position:fixed; right:0; bottom:0; margin-right:10px; margin-bottom:20px;display:none;}
+
+</style>
+</head>
+<body>
+<div class="box" id="box1">
+<img src="img/up-arrow.png" style="width:40px;height:50px;"/>
+</div>
+
+<input type="button" style="z-index:1;left:0;position:absolute; top:30%;cursor:pointer;width:34px;height:29px;font-size:23px;text-align:center;font-weight:bold;" onClick="xyz()" id="left" value="<" />
+<input type="button" style="z-index:1;right:0;top:30%;position:absolute; cursor:pointer;width:34px;height:29px;font-size:23px;text-align:center;font-weight:bold;" onClick="abc()" id="right" value=">"/>
+<div class="header">
+<div class="hea">
+<img src="img/ma.jpg" class="img1"/>
+</div>
+
+<div class="header1">
+
+<div class="sec">
+<div class="sec1">Home</div>
+<div class="sec1" style="opacity:0.8">About Us</div>
+<div class="sec1" style="opacity:0.8"><a href="index1.html" style="text-decoration:none;color:#fff">Read</a></div>
+<div class="sec1" style="opacity:0.8"><a href="index2.html" style="color:#fff;text-decoration:none;">Download</div>
+<div class="sec1" style="opacity:0.8"><a href="index3.html" style="color:#fff;text-decoration:none;">Upload</a></div>
+</div>
+
+</div>
+
+</div>
+<div class="bo">
+
+<img src="C:/Users/user/Desktop/project cllge/img/ma7.jpg" class="img2" id="sli"/>
+
+
+
+</div>
+<div class="content6">
+<div class="co1">
+<div class="content7">
+<div  class="co2">
+<img src="img/ma9.jpg" class="src"/>
+</div>
+<div class="co3"><a href="index1.html" style="color:#737373;text-decoration:none;">Fashion</a></div>
+</div>
+<div class="content7">
+<div  class="co2">
+<img src="img/ma14.jpeg" class="src"/>
+</div>
+<div class="co3"><a href="index1.html" style="color:#737373;text-decoration:none;">Science Fiction</a></div>
+</div>
+
+<div class="content7">
+<div  class="co2">
+<img src="img/ma13.jpg" class="src"/>
+</div>
+<div class="co3"><a href="index1.html" style="color:#737373;text-decoration:none;">Political Issues</a></div>
+
+</div>
+<div class="content7">
+<div  class="co2">
+<img src="img/ma12.jpg" class="src"/>
+</div>
+<div class="co3"><a href="index1.html" style="color:#737373;text-decoration:none;">Trade</a></div>
+
+</div>
+<div class="content7">
+<div  class="co2">
+<img src="img/ma15.jpg" class="src"/>
+</div>
+<div class="co3"><a href="index1.html" style="color:#737373;text-decoration:none;">Music</a></div>
+</div>
+<div class="content7">
+<div  class="co2">
+<img src="img/ma20.jpg" class="src"/>
+</div>
+<div class="co3"><a href="index1.html" style="color:#737373;text-decoration:none;">Wildlife</a></div>
+</div>
+<div class="content7">
+<div  class="co2">
+<img src="img/ma19.png" class="src"/>
+</div>
+<div class="co3"><a href="index1.html" style="color:#737373;text-decoration:none;">History</a></div>
+</div>
+<div class="content7">
+<div  class="co2">
+<img src="img/ma16.jpg" class="src"/>
+</div>
+<div class="co3"><a href="index1.html" style="color:#737373;text-decoration:none;">Art</a></div>
+</div>
+</div>
+</div>
+<div class="footer">
+<div class="footer1">
+<div class="footer2">
+<i class="fa fa-facebook-official" style="margin-top:20px;cursor:pointer;"></i>
+<i class="fa fa-twitter" style="margin-left:10px;cursor:pointer;"></i>
+<i class="fa fa-instagram" style="margin-left:10px;cursor:pointer;"></i>
+<i class="fa fa-whatsapp" style="margin-left:10px;cursor:pointer;"></i>
+<i class="fa fa-linkedin" style="margin-left:10px;cursor:pointer;"></i>
+</div>
+<div class="footer3">
+<p style="font-size:16px;cursor:pointer;">Contact us:&nbsp7023540453</p>
+</div>
+
+</div>
+
+
+</div>
+
+</body>
+</html>

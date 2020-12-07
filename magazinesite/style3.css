@@ -1,0 +1,303 @@
+body
+{
+   width:100%;
+   margin:0px;
+   
+}
+.header
+{
+	width:100%;
+	height:57px;
+	margin:auto;
+	background:#39424e;
+	color:#0e141e;
+	
+}
+.header1
+{
+	width:40%;
+	height:40px;
+	right:4%;
+	margin:2px;
+	float:left;
+	margin-left:35%;
+	
+}
+.sec
+{
+	width:95%;
+	height:95%;
+	margin:5px;
+	transition:all 1s;
+}
+.sec1
+{
+	width: 106px;
+    height: 36px;
+    float: left;
+    color: #fff;
+    margin: 1px;
+    line-height: 38px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-seri;
+	cursor:pointer;
+	
+	
+}
+.sec1:hover
+{
+	color:#eee;
+	text-decoration:underline;
+	transition:ease-in 1s;
+}
+.hea
+{
+	width:20%;
+	height:50px;
+	float:left;
+}
+.img1
+{
+	width: 44%;
+    margin: 0px;
+    height: 56px;
+    float: left;
+    margin-left: 27%;
+	cursor:pointer;
+}
+.boa
+{
+	width:100%;
+	height:70px;
+	margin:auto;
+	
+	
+	
+}
+.boa1
+{
+	width: 38%;
+    height: 55px;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    float: left;
+    margin: 5px;
+    margin-left: 688px;
+    text-decoration: none;
+    outline: none;
+    margin-top: 15px;
+    background: #fff;
+   
+    
+}
+
+.boa2
+{
+	height: 38px;
+    width: 50%;
+    /* border-radius: 4px; */
+    border: none;
+    text-align: left;
+    font-size: 17px;
+	outline:NONE;
+    text-indent: 16px;
+    margin-top: 7px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.bt
+{
+	margin-left: 5%;
+    margin-top: 21px;
+    width: 33px;
+    height: 36px;
+    float: left;
+}
+.s1
+{
+	position: absolute;
+    width: 218px;
+    left: 0;
+    top: 10%;
+    border: 1px solid #eee;
+    height: 70%;
+    background:#fff;
+	display:none;
+	opacity:1;
+	z-index:9999;
+	box-shadow: 0 4px 12px 0 rgba(0,0,0,.3);
+	
+	
+}
+.s
+{
+	width: 170px;
+    height: 35px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    outline: none;
+    font-weight: bold;
+    cursor: pointer;
+    color: #39424e;
+    margin-left: 30px;
+    margin-top: 18px;
+	border-bottom: 1px solid #eee;
+}
+
+
+.lo
+{
+	width:900px;
+	margin:10px;
+	height:500px;
+	margin-left:19%;
+	box-shadow: 0 4px 12px 0 rgba(0,0,0,.3);
+	opacity:1;
+	margin-top:2%;
+	border: 1px solid #ccc;
+	float:left;
+
+	
+}
+.up
+{
+	width:350px;
+	height:400px;
+	margin:28px;
+	margin-top:50px;
+    cursor:pointer;
+	float:left;
+	border:1px solid #ccc;
+	
+}
+.sr
+{
+	width:80px;
+	height:80px;
+	margin-top:40%;
+	margin-left:40%;
+	margin-right:50%;
+	margin-bottom:50%;
+}
+.up1
+{
+	width: 417px;
+    height: 400px;
+    float: left;
+    margin: 0px;
+	margin-left:23px;
+    margin-top: 50px;
+}
+.lo1
+{
+	width:98%;
+	height:180px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    outline: none;
+    font-weight: bold;
+	font-size: 25px;
+    cursor: pointer;
+    color: #39424e;
+	margin:5px;
+	float:left;
+}
+
+.lo3
+{
+	
+	width:98%;
+	height:70px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    outline: none;
+	font-size: 16px;
+    cursor: pointer;
+    color: #39424e;
+	margin:5px;
+	margin-top:10px;
+	float:left;
+	
+	
+}
+.bt1
+{
+	width:150px;
+	height:50px;
+	background-color:#39424e;
+	color:#fff;
+	opacity:0.9;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    outline: none;
+	font-size: 20px;
+    cursor: pointer;
+	margin:10px;
+	border:none;
+	cursor:pointer;
+	border-radius:8px;
+	text-align:center;
+}
+.footer
+{
+	width:100%;
+	height:80px;
+	float:left;
+	margin-top:10px;
+	margin:auto;
+	background:#39424e;
+	
+	
+}
+.mo
+{
+	width:auto;
+	height:630px;
+	margin-top:20px;
+}
+.footer1
+{
+	width:99%;
+	height:70px;
+	margin:5px;
+	color:#fff;
+	
+	
+}
+.footer2
+{width: 40%;
+    height: 30px;
+    float: left;
+    margin: 5px;
+    padding-left: 6%;
+}
+.footer3
+{
+	width: 20%;
+    float: left;
+    height: 50px;
+    margin: 5px;
+    margin-left: 30%;
+    margin-top: 11px;
+}
+.to
+{
+	width:350px;
+	height:50px;
+	color:#000;
+	border:1px solid#ccc;
+	border-radius:10px;
+	outline:none;
+	text-indent:10px;
+	font-size:17px;
+	margin:5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+}
+.to1
+{
+	width:20px;
+	height:20px;
+	margin:5px;
+	margin-left:20px;
+	outline:none;
+	cursor:pointer;
+	color:#000;
+}
